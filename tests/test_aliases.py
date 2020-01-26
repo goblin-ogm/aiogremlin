@@ -9,7 +9,7 @@ from gremlin_python.driver import request, serializer
 @pytest.mark.asyncio
 async def test_gremlin_query(event_loop, cluster):
     alias = { 'g': 'g' }
-    cluster = await driver.Cluster.open(event_loop, aliases=alias)
+    cluster = await driver.Cluster.open(event_loop, aliases=alias, hosts=['gremlin-server'])
     client = await cluster.connect()
     assert client.aliases == alias
     resp = await client.submit("1 + 1")
@@ -22,7 +22,7 @@ async def test_gremlin_query(event_loop, cluster):
 async def test_alias_serialization(event_loop):
     alias = { 'g': 'g' }
     message = '1 + 1'
-    cluster = await driver.Cluster.open(event_loop, aliases=alias)
+    cluster = await driver.Cluster.open(event_loop, aliases=alias, hosts=['gremlin-server'])
     client = await cluster.connect()
     # This is the code client/conn uses on submit
     message = request.RequestMessage(

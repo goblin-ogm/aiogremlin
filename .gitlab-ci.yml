@@ -1,14 +1,18 @@
 image: goblinogm/goblin-buildchain
 
+
 cache:
   paths:
   - vendor
 
 test:
+  services:
+    - name: goblinogm/gremlin-server-python:latest
+      alias: gremlin-server
+  image: goblinogm/goblin-buildchain
   script:
   - pip install -U -r requirements.txt
-  - cd docs
-  - make html
+  - python setup.py test
   except:
     - master
 

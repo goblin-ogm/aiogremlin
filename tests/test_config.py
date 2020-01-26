@@ -79,7 +79,7 @@ def test_cluster_config_from_json(event_loop, cluster_class):
 
 
 def test_cluster_config_from_yaml(event_loop, cluster_class):
-    cluster = cluster_class(event_loop)
+    cluster = cluster_class(event_loop, host='gremlin-server')
     cluster.config_from_file(dirname + '/tests/config/config.yml')
     assert cluster.config['scheme'] == 'wss'
     assert cluster.config['hosts'] == ['localhost']

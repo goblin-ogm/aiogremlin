@@ -25,7 +25,7 @@ from aiogremlin.driver.server import GremlinServer
 
 @pytest.mark.asyncio
 async def test_client_auto_release(cluster):
-    client = await cluster.connect()
+    client = await cluster.connect(hostname='gremlin-server')
     resp = await client.submit("1 + 1")
     async for msg in resp:
         pass
@@ -37,7 +37,7 @@ async def test_client_auto_release(cluster):
 
 @pytest.mark.asyncio
 async def test_alias(cluster):
-    client = await cluster.connect()
+    client = await cluster.connect(hostname='gremlin-server')
     aliased_client = client.alias({"g": "g1"})
     assert aliased_client._aliases == {"g": "g1"}
     assert aliased_client._cluster is client._cluster
@@ -47,11 +47,11 @@ async def test_alias(cluster):
 
 @pytest.mark.asyncio
 async def test_client_auto_release(cluster):
-    client = await cluster.connect(hostname='localhost')
+    client = await cluster.connect(hostname='gremlin-server')
     resp = await client.submit("1 + 1")
     async for msg in resp:
         assert msg == 2
-    assert client._hostname == 'localhost'
+    assert client._hostname == 'gremlin-server'
     await cluster.close()
 
 
