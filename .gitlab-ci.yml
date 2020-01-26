@@ -6,7 +6,6 @@ cache:
 
 test:
   script:
-  - pwd
   - pip install -U -r requirements.txt
   - cd docs
   - make html
@@ -15,8 +14,6 @@ test:
 
 pages:
   script:
-  - pwd
-  - ls
   - pip install -U -r requirements.txt
   - cd docs
   - make html
