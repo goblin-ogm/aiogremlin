@@ -1,0 +1,27 @@
+image: goblinogm/sphinx-builder
+
+cache:
+  paths:
+  - vendor
+
+test:
+  script:
+  - cd /app
+  - pip install -I -r requirements.txt
+  - cd /app/docs
+  - make html
+  except:
+    - master
+
+pages:
+  script:
+  - cd /app
+  - pip install -I -r requirements.txt
+  - cd /app/docs
+  - make html
+  - mv /app/docs/_build/html /app/public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
