@@ -6,20 +6,22 @@ cache:
 
 test:
   script:
-  - cd /app
-  - pip install -I -r requirements.txt
-  - cd /app/docs
+  - pwd
+  - pip install -U -r requirements.txt
+  - cd docs
   - make html
   except:
     - master
 
 pages:
   script:
-  - cd /app
-  - pip install -I -r requirements.txt
-  - cd /app/docs
+  - pwd
+  - ls
+  - pip install -U -r requirements.txt
+  - cd docs
   - make html
-  - mv /app/docs/_build/html /app/public
+  - cd ..
+  - mv docs/_build/html public
   artifacts:
     paths:
     - public
