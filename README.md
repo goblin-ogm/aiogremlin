@@ -36,3 +36,15 @@ vertices = loop.run_until_complete(go(loop))
 print(vertices)
 # [v[1], v[2], v[3], v[4], v[5], v[6]]
 ```
+
+## Developers
+
+### Testing
+
+In order to perform tests identical in nature to the integration tests we run then simply ensure you gave gitlab-runner installed then run the following command.
+
+```bash
+gitlab-runner exec docker test
+```
+
+Keep in mind this will run the tests on your local copy of the master branch so any changes not committed locally will be missed when testing.
