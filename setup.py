@@ -4,13 +4,13 @@ from setuptools import setup
 
 setup(
     name='aiogremlin',
-    version='3.3.1',
+    version='3.3.2',
     url='',
     license='Apache Software License',
-    author='davebshow',
-    author_email='davebshow@gmail.com',
+    author='Jeffrey Phillips Freeman',
+    author_email='Jeffrey.Freeman@syncleus.com',
     description='Async Gremlin-Python',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     packages=['aiogremlin',
               'aiogremlin.driver',
               'aiogremlin.driver.aiohttp',
@@ -28,7 +28,7 @@ setup(
     setup_requires=['pytest-runner'],
     tests_require=['pytest-asyncio', 'pytest-timeout', 'pytest', 'mock'],
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
