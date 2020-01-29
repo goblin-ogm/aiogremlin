@@ -53,14 +53,10 @@ class TestTraversal:
         assert 2 == len(bytecode.step_instructions[2])
         ##
         bytecode = g.V(('a',[1,2,3])).out(('b','created')).where(__.in_(('c','created'),('d','knows')).count().is_(('e',P.gt(2)))).bytecode
-        assert 5 == len(bytecode.bindings.keys())
-        assert [1,2,3] == bytecode.bindings['a']
-        assert 'created' == bytecode.bindings['b']
-        assert 'created' == bytecode.bindings['c']
-        assert 'knows' == bytecode.bindings['d']
-        assert P.gt(2) == bytecode.bindings['e']
-        assert Binding('b','created') == bytecode.step_instructions[1][1]
-        assert 'binding[b=created]' == str(bytecode.step_instructions[1][1])
+        assert 'V' == bytecode.step_instructions[0][0]
+        assert 'out' == bytecode.step_instructions[1][0]
+        assert 'where' == bytecode.step_instructions[2][0]
+        assert ('b', 'created') == bytecode.step_instructions[1][1]
         assert isinstance(hash(bytecode.step_instructions[1][1]),int)
 
     def test_P(self):
