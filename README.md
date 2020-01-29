@@ -3,6 +3,7 @@
 [![test coverage](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/coverage.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![Requirements](https://requires.io/github/goblin-ogm/aiogremlin/requirements.svg?branch=master)](https://requires.io/github/goblin-ogm/aiogremlin/requirements/?branch=master)
 [![Codacy](https://api.codacy.com/project/badge/Grade/99c4b7d53ee94c85b95433ee4ff6230c)](https://www.codacy.com/gh/goblin-ogm/aiogremlin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goblin-ogm/aiogremlin&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/goblin-ogm/aiogremlin/branch/master/graph/badge.svg)](https://codecov.io/gh/goblin-ogm/aiogremlin)
 
 [![PyPi](https://img.shields.io/pypi/v/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
 [![Downloads](https://img.shields.io/pypi/dm/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
