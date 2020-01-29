@@ -1,4 +1,6 @@
 # [aiogremlin](https://pypi.python.org/pypi/aiogremlin/3.2.4)
+[![tests](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/pipeline.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
+[![test coverage](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/coverage.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 
 [Official Documentation](http://aiogremlin.readthedocs.org/en/latest/)
 
