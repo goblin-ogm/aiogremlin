@@ -25,7 +25,7 @@ setup(
     ],
     test_suite='tests',
     setup_requires=['pytest-runner'],
-    tests_require=['pytest-asyncio', 'pytest', 'mock'],
+    tests_require=['pytest-asyncio', 'pytest-timeout', 'pytest', 'mock'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
