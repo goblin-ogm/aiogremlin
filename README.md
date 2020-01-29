@@ -1,6 +1,13 @@
 # [aiogremlin](https://pypi.python.org/pypi/aiogremlin/3.2.4)
 [![tests](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/pipeline.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![test coverage](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/coverage.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
+[![Requirements](https://requires.io/github/goblin-ogm/aiogremlin/requirements.svg?branch=master)](https://requires.io/github/goblin-ogm/aiogremlin/requirements/?branch=master)
+[![Gitter](https://badges.gitter.im/Syncleus/aparapi.svg)](https://gitter.im/Syncleus/aparapi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![PyPi](https://img.shields.io/pypi/v/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
+[![Downloads](https://img.shields.io/pypi/dm/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
+[![SemVer](https://img.shields.io/badge/SemVer-v2.0.0-green)](https://semver.org/spec/v2.0.0.html)
+[![docs](https://readthedocs.org/projects/aiogremlin/badge/?version=latest)](https://aiogremlin.readthedocs.io/en/latest/)
 
 [Official Documentation](http://aiogremlin.readthedocs.org/en/latest/)
 
