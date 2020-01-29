@@ -13,7 +13,9 @@ test:
   script:
   - pip install -U -r requirements.txt
   - coverage run --source=aiogremlin/ setup.py test
-
+  - python -m unittest discover
+  - coverage report -m
+  coverage: '/TOTAL.+ ([0-9]{1,3}%)/'
 pages:
   script:
   - pip install -U -r requirements.txt
