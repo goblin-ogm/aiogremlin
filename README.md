@@ -1,4 +1,5 @@
 # [aiogremlin](https://pypi.python.org/pypi/aiogremlin/3.2.4)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f69b7c0a02f246828891cc7d1ab8eebc)](https://app.codacy.com/gh/goblin-ogm/aiogremlin?utm_source=github.com&utm_medium=referral&utm_content=goblin-ogm/aiogremlin&utm_campaign=Badge_Grade_Dashboard)
 [![tests](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/pipeline.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![test coverage](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/coverage.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![Requirements](https://requires.io/github/goblin-ogm/aiogremlin/requirements.svg?branch=master)](https://requires.io/github/goblin-ogm/aiogremlin/requirements/?branch=master)
