@@ -1,4 +1,4 @@
-gremlinpython==3.3.0
+gremlinpython==3.4.3
 PyYAML>=3.12
 
 #required foir kobalos
