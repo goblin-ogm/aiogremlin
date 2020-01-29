@@ -18,7 +18,7 @@ setup(
               'aiogremlin.structure',
               'aiogremlin.remote'],
     install_requires=[
-        'gremlinpython>=3.4.3',
+        'gremlinpython<=3.4.3',
         'aenum>=1.4.5',  # required gremlinpython dep
         'aiohttp>=2.2.5',
         'PyYAML>=3.12',
