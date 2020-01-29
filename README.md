@@ -6,6 +6,7 @@
 [![Codacy](https://api.codacy.com/project/badge/Grade/99c4b7d53ee94c85b95433ee4ff6230c)](https://www.codacy.com/gh/goblin-ogm/aiogremlin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goblin-ogm/aiogremlin&amp;utm_campaign=Badge_Grade)
 
 [![PyPi](https://img.shields.io/pypi/v/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
 [![Downloads](https://img.shields.io/pypi/dm/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
 [![SemVer](https://img.shields.io/badge/SemVer-v2.0.0-green)](https://semver.org/spec/v2.0.0.html)
 [![docs](https://readthedocs.org/projects/aiogremlin/badge/?version=latest)](https://aiogremlin.readthedocs.io/en/latest/)
