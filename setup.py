@@ -14,7 +14,7 @@ setup(
     author=__author__,
     author_email=__email__,
     description='An asynchronous DSL for the Gremlin-Python driver',
-    long_description=open('README.md').read(),
+    long_description='This project is officially hosted on QOTO GitLab here: https://git.qoto.org/goblin-ogm/aiogremlin',
     url='https://git.qoto.org/goblin-ogm/aiogremlin',
     download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.2.tar.gz',
     include_package_data=True,
