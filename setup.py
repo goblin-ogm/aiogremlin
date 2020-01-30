@@ -10,7 +10,6 @@ __credits__ = ['David M. Brown - Project founder']
 setup(
     name='aiogremlin',
     version='3.3.2',
-    url='',
     license=__license__,
     author=__author__,
     author_email=__email__,
