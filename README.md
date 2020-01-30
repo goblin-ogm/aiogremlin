@@ -51,7 +51,7 @@ print(vertices)
 ```
 ## Donating
 
-[![Beerpay](https://beerpay.io/goblin-ogm/aiogremlin/badge.svg?style=beer-square)](https://beerpay.io/goblin-ogm/aiogremlin)  [![Beerpay](https://beerpay.io/goblin-ogm/aiogremlin/make-wish.svg?style=flat-square)](https://beerpay.io/goblin-ogm/aiogremlin?focus=wish)
+[![Librepay](http://img.shields.io/liberapay/receives/goblin-ogm.svg?logo=liberapay)](https://liberapay.com/goblin-ogm/donate)
 
 As an open-source project we run entierly off donations. Buy one of our hardworking developers a beer by donating with one of the above buttons. All donations go to our bounty fund and allow us to place bounties on important bugs and enhancements.
 
