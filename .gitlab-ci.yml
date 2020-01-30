@@ -17,8 +17,8 @@ test:
   - python -m unittest discover
   - coverage report -m
   - coverage xml
-  - codecov
   - python-codacy-coverage -r coverage.xml
+  - codecov
   coverage: '/TOTAL.+ ([0-9]{1,3}%)/'
 pages:
   script:
