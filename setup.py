@@ -8,7 +8,7 @@ setup(
     url='',
     license='Apache Software License',
     author='Jeffrey Phillips Freeman',
-    author_email='Jeffrey.Freeman@syncleus.com',
+    author_email='Jeffrey.Freeman@CleverThis.com',
     description='Async Gremlin-Python',
     long_description=open('README.md').read(),
     packages=['aiogremlin',
