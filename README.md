@@ -59,9 +59,7 @@ As an open-source project we run entierly off donations. Buy one of our hardwork
 
 This project is officially hosted on [QOTO GitLab here](https://git.qoto.org/goblin-ogm/aiogremlin) however an up-to-date mirror is also maintained on [Github here](https://github.com/goblin-ogm/aiogremlin).
 
-Aparapi Javadocs: [latest](https://aiogremlin.readthedocs.io/en/latest/)
-
-For detailed documentation see [Goblin-OGM.com](http://gblin-ogm.com).
+Documentation: [latest](http://goblin-ogm.qoto.io/aiogremlin)
 
 For support please use [Gitter](https://gitter.im/goblin-ogm/aiogremlin) or the [official Goblin mailing list and Discourse forum](https://discourse.qoto.org/c/PROJ/GOB).
 
