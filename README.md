@@ -4,7 +4,7 @@
 [![Requirements](https://requires.io/github/goblin-ogm/aiogremlin/requirements.svg?branch=master)](https://requires.io/github/goblin-ogm/aiogremlin/requirements/?branch=master)
 [![test coverage](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/coverage.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![codecov](https://codecov.io/gh/goblin-ogm/aiogremlin/branch/master/graph/badge.svg)](https://codecov.io/gh/goblin-ogm/aiogremlin)
-[![Codacy](https://api.codacy.com/project/badge/Grade/99c4b7d53ee94c85b95433ee4ff6230c)](https://www.codacy.com/gh/goblin-ogm/aiogremlin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goblin-ogm/aiogremlin&amp;utm_campaign=Badge_Grade)
+[![Codacy](https://api.codacy.com/project/badge/Grade/99c4b7d53ee94c85b95433ee4ff6230c)](https://www.codacy.com/gh/goblin-ogm/aiogremlin)
 [![Scrutinizer](https://img.shields.io/scrutinizer/quality/g/goblin-ogm/aiogremlin/master.svg?style=flat)](https://scrutinizer-ci.com/g/goblin-ogm/aiogremlin)
 
 [![PyPi](https://img.shields.io/pypi/v/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
@@ -12,7 +12,7 @@
 [![Downloads](https://img.shields.io/pypi/dm/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
 [![SemVer](https://img.shields.io/badge/SemVer-v2.0.0-green)](https://semver.org/spec/v2.0.0.html)
 [![docs](https://readthedocs.org/projects/aiogremlin/badge/?version=latest)](https://aiogremlin.readthedocs.io/en/latest/)
-[![Gitter](https://badges.gitter.im/goblin-ogm/aiogremlin.svg)](https://gitter.im/goblin-ogm/aiogremlin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/goblin-ogm/aiogremlin.svg)](https://gitter.im/goblin-ogm/aiogremlin)
 
 An asynchronous DSL for the Gremlin-Python driver
 
