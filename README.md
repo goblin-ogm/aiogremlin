@@ -12,9 +12,11 @@
 [![Downloads](https://img.shields.io/pypi/dm/aiogremlin.svg?style=flat)](https://pypi.python.org/pypi/aiogremlin)
 [![SemVer](https://img.shields.io/badge/SemVer-v2.0.0-green)](https://semver.org/spec/v2.0.0.html)
 [![docs](https://readthedocs.org/projects/aiogremlin/badge/?version=latest)](https://aiogremlin.readthedocs.io/en/latest/)
-[![Gitter](https://badges.gitter.im/Syncleus/aparapi.svg)](https://gitter.im/Syncleus/aparapi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/goblin-ogm/aiogremlin.svg)](https://gitter.im/goblin-ogm/aiogremlin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[Official Documentation](http://aiogremlin.readthedocs.org/en/latest/)
+An asynchronous DSL for the Gremlin-Python driver
+
+**Licensed under the Apache Software License v2**
 
 `aiogremlin` is an asynchronous DSL based on the official `Gremlin-Python` GLV designed for integration with
 event loop based asynchronous Python networking libraries, including `asyncio`,
@@ -23,9 +25,6 @@ in PEP 492, and is therefore Python 3.5+ only.
 
 `aiogremlin` tries to follow `Gremlin-Python` as closely as possible both in terms
 of API and implementation. It is released according to the TinkerPop release schedule.
-
-Note that this *NOT* an official Apache project component, it is a
-*THIRD PARTY PACKAGE!*
 
 ## Getting Started
 
@@ -50,6 +49,33 @@ vertices = loop.run_until_complete(go(loop))
 print(vertices)
 # [v[1], v[2], v[3], v[4], v[5], v[6]]
 ```
+## Donating
+
+[![Beerpay](https://beerpay.io/goblin-ogm/aiogremlin/badge.svg?style=beer-square)](https://beerpay.io/goblin-ogm/aiogremlin)  [![Beerpay](https://beerpay.io/goblin-ogm/aiogremlin/make-wish.svg?style=flat-square)](https://beerpay.io/goblin-ogm/aiogremlin?focus=wish)
+
+As an open-source project we run entierly off donations. Buy one of our hardworking developers a beer by donating with one of the above buttons. All donations go to our bounty fund and allow us to place bounties on important bugs and enhancements.
+
+## Support and Documentation
+
+This project is officially hosted on [QOTO GitLab here](https://git.qoto.org/goblin-ogm/aiogremlin) however an up-to-date mirror is also maintained on [Github here](https://github.com/goblin-ogm/aiogremlin).
+
+Aparapi Javadocs: [latest](https://aiogremlin.readthedocs.io/en/latest/)
+
+For detailed documentation see [Goblin-OGM.com](http://gblin-ogm.com).
+
+For support please use [Gitter](https://gitter.im/goblin-ogm/aiogremlin) or the [official Goblin mailing list and Discourse forum](https://discourse.qoto.org/c/PROJ/GOB).
+
+Please file bugs and feature requests on [QOTO GitLab](https://git.qoto.org/goblin-ogm/aiogremlin/issues) our old archived issues can still be viewed on [Github](https://github.com/davebshow/aiogremlin/issues) as well.
+
+Aparapi conforms to the [Semantic Versioning 2.0.0](http://semver.org/spec/v2.0.0.html) standard. That means the version of a release isnt arbitrary but rather describes how the library interfaces have changed. Read more about it at the [Semantic Versioning page](http://semver.org/spec/v2.0.0.html).
+
+## Related Projects
+
+This particular repository only represents the one component in a suite of libraries. There are several other related repositories worth taking a look at.
+
+* [Goblin](https://git.qoto.org/goblin-ogm/goblin) - The main library, the Goblin OGM
+* [Goblin Buildchain](https://git.qoto.org/goblin-ogm/goblin-buildchain) - Docker image containing all the needed tools to build and test Goblin.
+* [Python Gremlin Server](https://git.qoto.org/goblin-ogm/gremlin-server-python) - Vanilla Gremlin-server with Python Script Engine loaded, used for integration testing.
 
 ## Developers
 
