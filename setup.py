@@ -2,7 +2,6 @@ import pip
 from setuptools import setup
 
 __author__ = 'Jeffrey Phillips Freeman'
-__maintainer__ = __author__
 __email__ = 'Jeffrey.Freeman@CleverThis.com'
 __license__ = 'Apache License, Version 2.0'
 __copyright__ = 'Copyright 2017, CleverThis, Inc. and contributors'
@@ -17,7 +16,7 @@ setup(
     author_email=__email__,
     description='An asynchronous DSL for the Gremlin-Python driver',
     long_description=open('README.md').read(),
-    url='http://goblin-ogm.com',
+    url='https://git.qoto.org/goblin-ogm/aiogremlin',
     download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.2.tar.gz',
     include_package_data=True,
     keywords=['Tinkerpop', 'Tinkerpop3', 'gremlin', 'gremlin-python', 'asyncio', 'graphdb'],
