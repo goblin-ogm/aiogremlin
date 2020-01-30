@@ -9,7 +9,7 @@ __credits__ = ['David M. Brown - Project founder']
 
 setup(
     name='aiogremlin',
-    version='3.3.2',
+    version='3.3.3',
     license=__license__,
     author=__author__,
     author_email=__email__,
@@ -34,7 +34,11 @@ setup(
     ],
     test_suite='tests',
     setup_requires=['pytest-runner'],
-    tests_require=['pytest-asyncio', 'pytest-timeout', 'pytest', 'mock'],
+    tests_require=['pytest-asyncio',
+                   'pytest-timeout',
+                   'pytest',
+                   'coverage'
+                   'mock'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
