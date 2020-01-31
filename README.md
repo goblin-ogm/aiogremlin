@@ -26,9 +26,9 @@ in PEP 492, and is therefore Python 3.5+ only.
 `aiogremlin` tries to follow `Gremlin-Python` as closely as possible both in terms
 of API and implementation. It is released according to the TinkerPop release schedule.
 
-`aiogremlin`` is built directly on top of TinkerPop and allows access to all of the internals. This ensures all the
+`aiogremlin` is built directly on top of TinkerPop and allows access to all of the internals. This ensures all the
 TinkerPop features are available to the end-user. The TinkerPop stack provides several tools which can be used to work
-with `aiogremlin``.
+with `aiogremlin`.
 
 * **Gremlin**, a database agnostic query language for Graph Databases.
 * **Gremlin Server**, a server that provides an interface for executing Gremlin on remote machines.
