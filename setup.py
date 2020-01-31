@@ -37,7 +37,6 @@ setup(
     tests_require=['pytest-asyncio',
                    'pytest-timeout',
                    'pytest',
-                   'coverage'
                    'mock'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
