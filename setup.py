@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='aiogremlin',
-    version='3.3.4',
+    version='3.3.5',
     license=__license__,
     author=__author__,
     author_email=__email__,
@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     url='http://goblin-ogm.com',
-    download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.4.tar.gz',
+    download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.5.tar.gz',
     include_package_data=True,
     keywords=['Tinkerpop', 'Tinkerpop3', 'gremlin', 'gremlin-python', 'asyncio', 'graphdb'],
     packages=['aiogremlin',
