@@ -33,6 +33,7 @@ setup(
               'aiogremlin.process',
               'aiogremlin.structure',
               'aiogremlin.remote'],
+    python_requires='>=3.5',
     install_requires=[
         'gremlinpython<=3.4.3',
         'aenum>=1.4.5',  # required gremlinpython dep
