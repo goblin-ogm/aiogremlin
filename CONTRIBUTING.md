@@ -12,6 +12,16 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Development
 
+### Testing
+
+In order to perform tests identical in nature to the integration tests we run then simply ensure you gave gitlab-runner installed then run the following command.
+
+```bash
+gitlab-runner exec docker test
+```
+
+Keep in mind this will run the tests on your local copy of the master branch so any changes not committed locally will be missed when testing.
+
 ### Commit Message Format
 
 All commits on the repository repository follow the
@@ -62,3 +72,16 @@ ISSUES CLOSED: #31
    versioning scheme we use is [Semantic Versioning](http://semver.org/).
 5. Your pull request will either be approved or feedback will be given on what needs to be
    fixed to get approval. We usually review and comment on Pull Requests within 48 hours.
+
+### Deploying to Pypi
+
+1. Ensure version number in setup.py is correct.
+2. Make sure any outstanding commits are pushed.
+3. If a dist/ folder exists delete it.
+4. Compile source distribution with `python setup.py sdist`
+5. Compile binary distribution with `python setup.py bdist_wheel`
+6. Check the packages for errors with `twine check dist/*`
+7. Upload to Pypi using `twine upload dist/`
+8. Create a tag for the current version such as `git tag -a v3.3,3 -m "version 3.3.3"`
+9. Push the tag
+10. Update the version in CHANGELOG.md and setup.py on master.

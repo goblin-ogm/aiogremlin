@@ -105,15 +105,3 @@ This particular repository only represents the one component in a suite of libra
 * [Goblin](https://git.qoto.org/goblin-ogm/goblin) - The main library, the Goblin OGM
 * [Goblin Buildchain](https://git.qoto.org/goblin-ogm/goblin-buildchain) - Docker image containing all the needed tools to build and test Goblin.
 * [Python Gremlin Server](https://git.qoto.org/goblin-ogm/gremlin-server-python) - Vanilla Gremlin-server with Python Script Engine loaded, used for integration testing.
-
-## Developers
-
-### Testing
-
-In order to perform tests identical in nature to the integration tests we run then simply ensure you gave gitlab-runner installed then run the following command.
-
-```bash
-gitlab-runner exec docker test
-```
-
-Keep in mind this will run the tests on your local copy of the master branch so any changes not committed locally will be missed when testing.
