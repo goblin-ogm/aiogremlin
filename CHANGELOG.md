@@ -1,5 +1,7 @@
 # AIO Gremlin Changelog
 
+## v3.3.4
+
 ## v3.3.3
 
 * Fixed bug preventing code from running on python 3.7+, see [issue #1](https://git.qoto.org/goblin-ogm/aiogremlin/issues/1).
