@@ -75,7 +75,7 @@ ISSUES CLOSED: #31
 
 ### Deploying to Pypi
 
-1. Ensure version number in setup.py is correct.
+1. Ensure version number in setup.py is correct. Note this is updated in both the version property and the download url.
 2. Make sure any outstanding commits are pushed.
 3. If a dist/ folder exists delete it.
 4. Compile source distribution with `python setup.py sdist`
