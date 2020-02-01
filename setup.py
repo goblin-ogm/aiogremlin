@@ -36,7 +36,8 @@ setup(
         'aenum>=1.4.5',  # required gremlinpython dep
         'aiohttp>=2.2.5',
         'PyYAML>=3.12',
-        'six>=1.10.0'  # required gremlinpython dep
+        'six>=1.10.0',  # required gremlinpython dep
+        'inflection>=0.3.1"
     ],
     test_suite='tests',
     setup_requires=['pytest-runner'],
