@@ -1,4 +1,4 @@
-# ![Goblin logo](https://git.qoto.org/goblin-ogm/goblin/uploads/bb8f7349fdb9aa2a7a244e4c95b380a7/goblin-logo.png)  AIO Gremlin
+# [![Goblin logo](https://git.qoto.org/goblin-ogm/goblin/uploads/bb8f7349fdb9aa2a7a244e4c95b380a7/goblin-logo.png)  AIO Gremlin](http://goblin-ogm.com)
 
 [![tests](http://git.qoto.org/goblin-ogm/aiogremlin/badges/master/pipeline.svg)](http://git.qoto.org/goblin-ogm/aiogremlin/commits/master)
 [![Requirements](https://requires.io/github/goblin-ogm/aiogremlin/requirements.svg?branch=master)](https://requires.io/github/goblin-ogm/aiogremlin/requirements/?branch=master)
@@ -51,11 +51,11 @@ with `aiogremlin`.
 
  Some unique feature provided by the Goblin OGM include:
 
-* High level asynchronous *Object Graph Mapper* (OGM) - provided by [goblin](http://git.qoto.org/goblin-ogm/goblin)
+* High level asynchronous *Object Graph Mapper* (OGM) - provided by [goblin](https://git.qoto.org/goblin-ogm/goblin)
 * Integration with the *official gremlin-python Gremlin Language Variant* (GLV)
 * Native Python support for asynchronous programing including *coroutines*, *iterators*, and *context managers* as specified in [PEP 492](https://www.python.org/dev/peps/pep-0492/)
-* *Asynchronous Python driver* for the Gremlin Server - now provided by [aiogremlin](http://aiogremlin.readthedocs.io/en/latest/)
-* Async `Graph` implementation that produces *native Python GLV traversals* - now provided by [aiogremlin](http://aiogremlin.readthedocs.io/en/latest/)
+* *Asynchronous Python driver* for the Gremlin Server
+* Async `Graph` implementation that produces *native Python GLV traversals*
 
 ## Getting Started
 
@@ -88,7 +88,7 @@ As an open-source project we run entierly off donations. Buy one of our hardwork
 
 ## Support and Documentation
 
-This project is officially hosted on [QOTO GitLab here](https://git.qoto.org/goblin-ogm/aiogremlin) however an up-to-date mirror is also maintained on [Github here](https://github.com/goblin-ogm/aiogremlin).
+The official homepage for the project is at [http://goblin-ogm.com](http://goblin-ogm.com). The source is officially hosted on [QOTO GitLab here](https://git.qoto.org/goblin-ogm/aiogremlin) however an up-to-date mirror is also maintained on [Github here](https://github.com/goblin-ogm/aiogremlin).
 
 Documentation: [latest](http://goblin-ogm.qoto.io/aiogremlin)
 
