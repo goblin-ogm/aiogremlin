@@ -1,3 +1,4 @@
+import os
 import pip
 from setuptools import setup
 
@@ -7,6 +8,12 @@ __license__ = 'Apache License, Version 2.0'
 __copyright__ = 'Copyright 2017, CleverThis, Inc. and contributors'
 __credits__ = ['David M. Brown - Project founder']
 
+def get_long_description():
+    with open(os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), 'README.md'
+    ), encoding='utf8') as fp:
+        return fp.read()
+
 setup(
     name='aiogremlin',
     version='3.3.3',
@@ -14,9 +21,10 @@ setup(
     author=__author__,
     author_email=__email__,
     description='An asynchronous DSL for the Gremlin-Python driver',
-    long_description='This project is officially hosted on QOTO GitLab here: https://git.qoto.org/goblin-ogm/aiogremlin',
-    url='https://git.qoto.org/goblin-ogm/aiogremlin',
-    download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.2.tar.gz',
+    long_description=get_long_description(),
+    long_description_content_type='text/markdown',
+    url='http://goblin-ogm.com',
+    download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.3.tar.gz',
     include_package_data=True,
     keywords=['Tinkerpop', 'Tinkerpop3', 'gremlin', 'gremlin-python', 'asyncio', 'graphdb'],
     packages=['aiogremlin',
