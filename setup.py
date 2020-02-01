@@ -8,11 +8,8 @@ __license__ = 'Apache License, Version 2.0'
 __copyright__ = 'Copyright 2017, CleverThis, Inc. and contributors'
 __credits__ = ['David M. Brown - Project founder']
 
-def get_long_description():
-    with open(os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), 'README.md'
-    ), encoding='utf8') as fp:
-        return fp.read()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name='aiogremlin',
@@ -21,8 +18,8 @@ setup(
     author=__author__,
     author_email=__email__,
     description='An asynchronous DSL for the Gremlin-Python driver',
-    long_description=get_long_description(),
-    long_description_content_type='text/markdown',
+    long_description_content_type="text/markdown",
+    long_description=long_description,
     url='http://goblin-ogm.com',
     download_url='https://github.com/goblin-ogm/aiogremlin/archive/v3.3.3.tar.gz',
     include_package_data=True,
