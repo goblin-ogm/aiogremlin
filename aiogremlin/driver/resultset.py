@@ -59,7 +59,7 @@ class ResultSet:
     def aggregate_to(self, val):
         self._aggregate_to = val
 
-    async def __aiter__(self):
+    def __aiter__(self):
         return self
 
     async def __anext__(self):
