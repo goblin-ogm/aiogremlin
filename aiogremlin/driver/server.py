@@ -27,11 +27,8 @@ class GremlinServer:
         scheme = config['scheme']
         if scheme in ['https', 'wss']:
             certfile = config['ssl_certfile']
-            keyfile = config['ssl_keyfile']
-            ssl_password = config['ssl_password']
             ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
-            ssl_context.load_cert_chain(
-                certfile, keyfile=keyfile, password=ssl_password)
+            ssl_context.load_verify_locations(cafile=certfile)
             self._ssl_context = ssl_context
         else:
             self._ssl_context = None
